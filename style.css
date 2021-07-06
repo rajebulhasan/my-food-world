@@ -1,17 +1,22 @@
 body{
     font-family: 'Oxygen', sans-serif;;
+    margin:0%;
+    padding: 0%;
 }
-
+ 
+h1{
+    font-size: 35px;
+}
 .clr{
     color: orange;
 }
 
 .buttons{
     text-decoration: none;
-    background-image: linear-gradient(to left, red, yellow);
+    background-image: linear-gradient(to left, red,orange, yellow);
     padding: 10px 20px;
-    color; white;
-    font-weight: 1000;
+    color:black;
+    font-weight: 2000;
     border-radius: 30px;
 }
 
@@ -21,4 +26,14 @@ section{
 
 .half-width{
     width: 50%;
+    padding: 5%;
+}
+
+.half-width img{
+    width: 80%;
+}
+
+.banner{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
 }
