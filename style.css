@@ -37,3 +37,43 @@ section{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
 }
+
+.menu{
+    text-align: center;
+}
+
+.boxes{
+    display: flex;
+}
+
+.box{
+    width: 35%;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 10px;
+    box-shadow:0px 10px 10px 0px aquamarine;
+    border-radius: 10px;
+}
+.box img{
+    width: 100%;
+    text-align: center;
+}
+
+#foot{
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.btm-banner{
+    background-image: url(images/bg\).jpg);
+    color: white;
+    padding-bottom: 1px;
+}
+
+#hf{
+    padding-top: 70px;
+}
+#foot-clr{
+    color: orange;
+}
